@@ -7,7 +7,10 @@ const db = new Sequelize(
     {
         dialect:  'postgres',
         protocol: 'postgres',
-        logging : false
+        logging : false,
+        ssl : {
+            rejectUnauthorized : false
+        }
     }
 )
 console.log("hello world", db)
