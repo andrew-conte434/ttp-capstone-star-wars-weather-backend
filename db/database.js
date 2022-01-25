@@ -10,5 +10,5 @@ const db = new Sequelize(
         logging : false
     }
 )
-
+console.log("hello world", db)
 module.exports = db
