@@ -1,14 +1,14 @@
 {
     "development": {
-      "username": null,
-      "password": null,
+      "username": "postgres",
+      "password": "sql123",
       "database": "task_development",
       "host": "127.0.0.1",
       "dialect": "postgres"
     },
     "test": {
-      "username": null,
-      "password": null,
+      "username": "postgres",
+      "password": "sql123",
       "database": "task_test",
       "host": "127.0.0.1",
       "dialect": "postgres"
