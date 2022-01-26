@@ -47,7 +47,8 @@ router.put('/:id', async(req, res) => {
                 min_clouds : req.body.min_clouds || planet.min_clouds,
                 max_clouds : req.body.max_clouds || planet.max_clouds,
                 windy : req.body.windy || planet.windy,
-                fog : req.body.fog || planet.fog
+                fog : req.body.fog || planet.fog,
+                rain : req.body.rain || planet.rain
             },
             {where : {id : req.params.id}})
         res.status(200).send(`successfully updated ${planet.name}`)
