@@ -55,6 +55,11 @@ const Planet = db.define('planet', {
         type : Sequelize.BOOLEAN,
         defaultValue : false,
         allowNull : false
+    },
+    rain : {
+        type : Sequelize.BOOLEAN,
+        defaultValue : false,
+        allowNull : false
     }
 })
 
