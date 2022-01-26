@@ -48,7 +48,7 @@ const Planet = db.define('planet', {
     },
     windy : {
         type : Sequelize.BOOLEAN,
-        defaultValue : 50,
+        defaultValue : false,
         allowNull : false
     },
     fog : {
