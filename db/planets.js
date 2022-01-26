@@ -19,8 +19,7 @@ const Planet = db.define('planet', {
         type : Sequelize.INTEGER,
         defaultValue : 273,
         allowNull : false
-    },
-    max
+    }
 })
 
 module.exports = Planet
