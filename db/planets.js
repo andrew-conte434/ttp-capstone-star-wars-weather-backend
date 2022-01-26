@@ -14,7 +14,13 @@ const Planet = db.define('planet', {
     imageUrl : {
         type : Sequelize.TEXT,
         allowNull : false
-    }
+    },
+    min_temp : {
+        type : Sequelize.INTEGER,
+        defaultValue : 273,
+        allowNull : false
+    },
+    max
 })
 
 module.exports = Planet
