@@ -60,6 +60,11 @@ const Planet = db.define('planet', {
         type : Sequelize.BOOLEAN,
         defaultValue : false,
         allowNull : false
+    },
+    quote : {
+        type : Sequelize.TEXT,
+        defaultValue : ' ',
+        allowNull : false
     }
 })
 
